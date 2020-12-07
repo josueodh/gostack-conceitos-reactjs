@@ -18,7 +18,7 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post('/repositories', {
-      "title": "Hugo viado",
+      
     });
     setRepositories([...respositories, response.data]);
   }
